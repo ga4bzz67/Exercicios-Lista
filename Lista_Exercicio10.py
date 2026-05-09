@@ -32,7 +32,7 @@ while True:
         print(f" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]}\n---+---+---\n {tabuleiro[3]} | {tabuleiro[4]} | {tabuleiro[5]}\n---+---+---\n {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]}")
         print()
 
-        print(f"Jogador {jogador} venceu!")
+        print(f"O Jogador {jogador} venceu!")
         break
     
     if " " not in tabuleiro:
