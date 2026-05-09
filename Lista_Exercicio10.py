@@ -1,9 +1,13 @@
+import os
+
 tabuleiro = [" "] * 9
 jogador = "X"
 
-print("Posições: \n 0 | 1 | 2\n---+---+---\n 3 | 4 | 5\n---+---+---\n 6 | 7 | 8")
-
 while True:
+    os.system("cls")
+
+    print("Posições: \n 0 | 1 | 2\n---+---+---\n 3 | 4 | 5\n---+---+---\n 6 | 7 | 8")
+
     print()
     print(f" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]}\n---+---+---\n {tabuleiro[3]} | {tabuleiro[4]} | {tabuleiro[5]}\n---+---+---\n {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]}")
     print()
